@@ -1,0 +1,14 @@
+RewriteEngine On
+RewriteBase /CONTROLEUR/api.php
+RewriteRule ^/?(api)/? api.php [NC]
+RewriteCond %{REQUEST_METHOD} (PUT|DELETE)
+RewriteRule .* testput.php [L]
+
+ErrorDocument 404 http://localhost/API/views/test/albums.php/404/
+
+
+RewriteEngine On
+RewriteBase /
+
+RewriteCond %{REQUEST_URI} ^/404/$
+RewriteRule ^(.*)$ /pages/errors/404.php [L]

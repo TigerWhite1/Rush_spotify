@@ -1,0 +1,132 @@
+@import url(https://fonts.googleapis.com/css?family=Work+Sans:400,300,600,700);
+
+body {
+	font-family: 'Work Sans';
+	font-size: 16px;
+}
+a, a:visited, a:hover {
+	color: #444;
+}
+.navbar {
+	background: #111;
+	border: 0;
+	font-size: 14px;
+}
+.jumbotron {
+	background: #fec76c;
+	background: -webkit-linear-gradient(bottom left, #fec76c 0%, #ed3ea4 100%);
+	background: -moz-linear-gradient(bottom left, #fec76c 0%, #ed3ea4 100%);
+	background: linear-gradient(to top right, #fec76c 0%, #ed3ea4 100%);
+	color: #FFF;
+	margin-top: 50px;
+}
+.blue {
+	background: #fecdd3;
+	background: -webkit-linear-gradient(bottom left, #fecdd3 0%, #4222f1 100%);
+	background: -moz-linear-gradient(bottom left, #fecdd3 0%, #4222f1 100%);
+	background: linear-gradient(to top right, #fecdd3 0%, #4222f1 100%);
+}				
+.jumbotron h1, .jumbotronblue h1 {
+	font-weight: 600;
+}
+/*--- END COMMMONS ---*/
+
+/*---ARTISTE---*/
+.artiste:nth-child(4n+1) {
+	clear: both;
+}
+.artiste {
+	background-repeat: no-repeat;
+	background-position: center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	width: 21%;
+	float: left;
+	margin: 1% 2%;
+	text-align: center;
+}
+.artiste a {
+	display: block;
+	color: #FFF;
+	text-decoration: none;
+	background: rgba(0, 0, 0, 0.7);
+	letter-spacing: 0;
+	padding: 30px 10px;
+	-webkit-transition: all 0.2s ease;
+	-moz-transition: all 0.2s ease;
+	transition: all 0.2s ease;
+}
+.artiste a:hover {
+	letter-spacing: 1px;
+}
+/*---END ARTISTE---*/
+/*---ALBUM---*/
+.album {
+	background-repeat: no-repeat;
+	background-position: center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	width: 21%;
+	float: left;
+	margin: 1% 2%;
+	text-align: center;
+}
+.album:nth-child(4n+1) {
+	clear: both;
+}
+.album a {
+	display: block;
+	color: #FFF;
+	min-height: 104px;
+	text-decoration: none;
+	background: rgba(0, 0, 0, 0.7);
+	letter-spacing: 0;
+	padding: 30px 5px;
+	-webkit-transition: all 0.2s ease;
+	-moz-transition: all 0.2s ease;
+	transition: all 0.2s ease;
+}
+.album a:hover {
+	letter-spacing: 1px;
+}
+.album p {
+	background: rgba(0, 0, 0, 0.85);
+	margin: 0;
+	color: #CCC;
+	padding: 10px;
+}
+.album-3 {
+	width: 29.3333%;
+}
+/*---DETAIL ALBUM---*/
+.imgcover {
+	width: 150px;
+}
+.description h3 {
+	margin-top: 5px;
+	border-bottom: 2px solid #DDD;
+	padding-bottom: 5px;
+}
+/*---GENRE---*/
+.genre {
+	width: 46%;
+	float: left;
+	margin: 1% 2%;
+	text-align: center;
+}
+.genre a {
+	display: block;
+	color: #FFF;
+	text-decoration: none;
+	background: rgba(0, 0, 0, 0.7);
+	letter-spacing: 0;
+	padding: 30px 10px;
+	-webkit-transition: all 0.2s ease;
+	-moz-transition: all 0.2s ease;
+	transition: all 0.2s ease;
+}
+.genre a:hover {
+	letter-spacing: 1px;
+}
